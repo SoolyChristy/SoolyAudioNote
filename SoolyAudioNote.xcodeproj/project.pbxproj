@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7063884D1EE6BA1400FC39F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063884C1EE6BA1400FC39F1 /* AppDelegate.swift */; };
+		7063884F1EE6BA1400FC39F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063884E1EE6BA1400FC39F1 /* ViewController.swift */; };
+		706388521EE6BA1400FC39F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706388501EE6BA1400FC39F1 /* Main.storyboard */; };
+		706388541EE6BA1400FC39F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706388531EE6BA1400FC39F1 /* Assets.xcassets */; };
+		706388571EE6BA1400FC39F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706388551EE6BA1400FC39F1 /* LaunchScreen.storyboard */; };
+		706388621EE6BA1400FC39F1 /* SoolyAudioNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706388611EE6BA1400FC39F1 /* SoolyAudioNoteTests.swift */; };
+		7063886D1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063886C1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7063885E1EE6BA1400FC39F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706388411EE6BA1400FC39F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706388481EE6BA1400FC39F1;
+			remoteInfo = SoolyAudioNote;
+		};
+		706388691EE6BA1400FC39F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706388411EE6BA1400FC39F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706388481EE6BA1400FC39F1;
+			remoteInfo = SoolyAudioNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		706388491EE6BA1400FC39F1 /* SoolyAudioNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolyAudioNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7063884C1EE6BA1400FC39F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7063884E1EE6BA1400FC39F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		706388511EE6BA1400FC39F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		706388531EE6BA1400FC39F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706388561EE6BA1400FC39F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		706388581EE6BA1400FC39F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7063885D1EE6BA1400FC39F1 /* SoolyAudioNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyAudioNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706388611EE6BA1400FC39F1 /* SoolyAudioNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolyAudioNoteTests.swift; sourceTree = "<group>"; };
+		706388631EE6BA1400FC39F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706388681EE6BA1400FC39F1 /* SoolyAudioNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyAudioNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7063886C1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolyAudioNoteUITests.swift; sourceTree = "<group>"; };
+		7063886E1EE6BA1400FC39F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706388461EE6BA1400FC39F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7063885A1EE6BA1400FC39F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706388651EE6BA1400FC39F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706388401EE6BA1400FC39F1 = {
+			isa = PBXGroup;
+			children = (
+				7063884B1EE6BA1400FC39F1 /* SoolyAudioNote */,
+				706388601EE6BA1400FC39F1 /* SoolyAudioNoteTests */,
+				7063886B1EE6BA1400FC39F1 /* SoolyAudioNoteUITests */,
+				7063884A1EE6BA1400FC39F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7063884A1EE6BA1400FC39F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706388491EE6BA1400FC39F1 /* SoolyAudioNote.app */,
+				7063885D1EE6BA1400FC39F1 /* SoolyAudioNoteTests.xctest */,
+				706388681EE6BA1400FC39F1 /* SoolyAudioNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7063884B1EE6BA1400FC39F1 /* SoolyAudioNote */ = {
+			isa = PBXGroup;
+			children = (
+				7063884C1EE6BA1400FC39F1 /* AppDelegate.swift */,
+				7063884E1EE6BA1400FC39F1 /* ViewController.swift */,
+				706388501EE6BA1400FC39F1 /* Main.storyboard */,
+				706388531EE6BA1400FC39F1 /* Assets.xcassets */,
+				706388551EE6BA1400FC39F1 /* LaunchScreen.storyboard */,
+				706388581EE6BA1400FC39F1 /* Info.plist */,
+			);
+			path = SoolyAudioNote;
+			sourceTree = "<group>";
+		};
+		706388601EE6BA1400FC39F1 /* SoolyAudioNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				706388611EE6BA1400FC39F1 /* SoolyAudioNoteTests.swift */,
+				706388631EE6BA1400FC39F1 /* Info.plist */,
+			);
+			path = SoolyAudioNoteTests;
+			sourceTree = "<group>";
+		};
+		7063886B1EE6BA1400FC39F1 /* SoolyAudioNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7063886C1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift */,
+				7063886E1EE6BA1400FC39F1 /* Info.plist */,
+			);
+			path = SoolyAudioNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706388481EE6BA1400FC39F1 /* SoolyAudioNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706388711EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNote" */;
+			buildPhases = (
+				706388451EE6BA1400FC39F1 /* Sources */,
+				706388461EE6BA1400FC39F1 /* Frameworks */,
+				706388471EE6BA1400FC39F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoolyAudioNote;
+			productName = SoolyAudioNote;
+			productReference = 706388491EE6BA1400FC39F1 /* SoolyAudioNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7063885C1EE6BA1400FC39F1 /* SoolyAudioNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706388741EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNoteTests" */;
+			buildPhases = (
+				706388591EE6BA1400FC39F1 /* Sources */,
+				7063885A1EE6BA1400FC39F1 /* Frameworks */,
+				7063885B1EE6BA1400FC39F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7063885F1EE6BA1400FC39F1 /* PBXTargetDependency */,
+			);
+			name = SoolyAudioNoteTests;
+			productName = SoolyAudioNoteTests;
+			productReference = 7063885D1EE6BA1400FC39F1 /* SoolyAudioNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		706388671EE6BA1400FC39F1 /* SoolyAudioNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706388771EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNoteUITests" */;
+			buildPhases = (
+				706388641EE6BA1400FC39F1 /* Sources */,
+				706388651EE6BA1400FC39F1 /* Frameworks */,
+				706388661EE6BA1400FC39F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7063886A1EE6BA1400FC39F1 /* PBXTargetDependency */,
+			);
+			name = SoolyAudioNoteUITests;
+			productName = SoolyAudioNoteUITests;
+			productReference = 706388681EE6BA1400FC39F1 /* SoolyAudioNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706388411EE6BA1400FC39F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SoolyChristina;
+				TargetAttributes = {
+					706388481EE6BA1400FC39F1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7523YW79F8;
+						ProvisioningStyle = Automatic;
+					};
+					7063885C1EE6BA1400FC39F1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7523YW79F8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 706388481EE6BA1400FC39F1;
+					};
+					706388671EE6BA1400FC39F1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7523YW79F8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 706388481EE6BA1400FC39F1;
+					};
+				};
+			};
+			buildConfigurationList = 706388441EE6BA1400FC39F1 /* Build configuration list for PBXProject "SoolyAudioNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706388401EE6BA1400FC39F1;
+			productRefGroup = 7063884A1EE6BA1400FC39F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706388481EE6BA1400FC39F1 /* SoolyAudioNote */,
+				7063885C1EE6BA1400FC39F1 /* SoolyAudioNoteTests */,
+				706388671EE6BA1400FC39F1 /* SoolyAudioNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706388471EE6BA1400FC39F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706388571EE6BA1400FC39F1 /* LaunchScreen.storyboard in Resources */,
+				706388541EE6BA1400FC39F1 /* Assets.xcassets in Resources */,
+				706388521EE6BA1400FC39F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7063885B1EE6BA1400FC39F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706388661EE6BA1400FC39F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706388451EE6BA1400FC39F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7063884F1EE6BA1400FC39F1 /* ViewController.swift in Sources */,
+				7063884D1EE6BA1400FC39F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706388591EE6BA1400FC39F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706388621EE6BA1400FC39F1 /* SoolyAudioNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706388641EE6BA1400FC39F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7063886D1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7063885F1EE6BA1400FC39F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706388481EE6BA1400FC39F1 /* SoolyAudioNote */;
+			targetProxy = 7063885E1EE6BA1400FC39F1 /* PBXContainerItemProxy */;
+		};
+		7063886A1EE6BA1400FC39F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706388481EE6BA1400FC39F1 /* SoolyAudioNote */;
+			targetProxy = 706388691EE6BA1400FC39F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		706388501EE6BA1400FC39F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706388511EE6BA1400FC39F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		706388551EE6BA1400FC39F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706388561EE6BA1400FC39F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7063886F1EE6BA1400FC39F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		706388701EE6BA1400FC39F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706388721EE6BA1400FC39F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyAudioNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyAudioNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		706388731EE6BA1400FC39F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyAudioNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyAudioNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		706388751EE6BA1400FC39F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyAudioNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyAudioNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoolyAudioNote.app/SoolyAudioNote";
+			};
+			name = Debug;
+		};
+		706388761EE6BA1400FC39F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyAudioNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyAudioNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoolyAudioNote.app/SoolyAudioNote";
+			};
+			name = Release;
+		};
+		706388781EE6BA1400FC39F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyAudioNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyAudioNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoolyAudioNote;
+			};
+			name = Debug;
+		};
+		706388791EE6BA1400FC39F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7523YW79F8;
+				INFOPLIST_FILE = SoolyAudioNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sooly.SoolyAudioNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SoolyAudioNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706388441EE6BA1400FC39F1 /* Build configuration list for PBXProject "SoolyAudioNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7063886F1EE6BA1400FC39F1 /* Debug */,
+				706388701EE6BA1400FC39F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706388711EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706388721EE6BA1400FC39F1 /* Debug */,
+				706388731EE6BA1400FC39F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		706388741EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706388751EE6BA1400FC39F1 /* Debug */,
+				706388761EE6BA1400FC39F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		706388771EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706388781EE6BA1400FC39F1 /* Debug */,
+				706388791EE6BA1400FC39F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 706388411EE6BA1400FC39F1 /* Project object */;
+}
