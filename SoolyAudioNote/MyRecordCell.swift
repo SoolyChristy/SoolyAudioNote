@@ -17,6 +17,7 @@ class MyRecordCell: UITableViewCell {
     
     weak var delegate: MyRecordCellDelegate?
     
+    /// 文件路径
     var recordPath: String? {
         didSet {
             if let recordPath = recordPath {
@@ -24,6 +25,14 @@ class MyRecordCell: UITableViewCell {
             }
         }
     }
+    /// 正在播放标识
+    var isPlaying = false {
+        didSet {
+            playingTagBtn.isHidden = !isPlaying
+            playBtn.isEnabled = !isPlaying
+        }
+    }
+    
     var indexPath = IndexPath()
     
     @IBOutlet weak var nameLabel: UILabel!
@@ -43,30 +52,29 @@ class MyRecordCell: UITableViewCell {
         cell.indexPath = indexPath
         cell.recordPath = RecordManager.shared.recordPaths[indexPath.row]
         
-        cell.playingTagBtn.isHidden = true
+        cell.isPlaying = false
         
         // 若当前cell 是 正在播放的cell 则保留 播放状态标识
         if let playingIndexPath = playingIndexPath, playingIndexPath == indexPath {
-            cell.playingTagBtn.isHidden = false
+            cell.isPlaying = true
         }
         
         return cell
     }
     
-    // 点击cell停止播放
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        RecordManager.shared.stopPlaying()
-        playingTagBtn.isHidden = true
-        delegate?.myRecordCellClick()
-    }
-    
     // 点击播放按钮
     @IBAction func playBtnClick() {
         RecordManager.shared.startPlaying(path: recordPath) { [weak self] in
-            self?.playingTagBtn.isHidden = true
+            self?.isPlaying = false
+            self?.delegate?.myRecordCellClick()
         }
         
-        playingTagBtn.isHidden = false
+        isPlaying = true
         delegate?.myRecordCellPlayButtonClick(indexPath: indexPath)
+    }
+    
+    func stopPlaying() {
+        RecordManager.shared.stopPlaying()
+        isPlaying = false
     }
 }

@@ -36,19 +36,27 @@ extension MyRecordViewController: UITableViewDelegate, UITableViewDataSource {
         cell.delegate = self
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath == playingIndexPath {
+            let cell = tableView.cellForRow(at: indexPath) as! MyRecordCell
+            cell.stopPlaying()
+        }
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
 extension MyRecordViewController: MyRecordCellDelegate {
     
-    // 点击cell的播放按钮 记录此cell的indePath 并隐藏之前cell的播放状态
+    // 点击cell的播放按钮 记录此cell的indePath 若此cell不等于正在播放的cell 则 设置播放标识为false
     func myRecordCellPlayButtonClick(indexPath: IndexPath) {
-        guard let playingIndexPath = playingIndexPath else {
+        guard let playingIndexPath = playingIndexPath, playingIndexPath != indexPath else {
             self.playingIndexPath = indexPath
             return
         }
         
         let cell = tableView.cellForRow(at: playingIndexPath) as? MyRecordCell
-        cell?.playingTagBtn.isHidden = true
+        cell?.isPlaying = false
         
         self.playingIndexPath = indexPath
     }

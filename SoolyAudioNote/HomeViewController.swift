@@ -57,8 +57,10 @@ extension HomeViewController {
         
         view.addSubview(recordBtn)
         
-        playBtn = UIButton(type: .contactAdd)
-        playBtn.frame = CGRect(x: 50, y: 100, width: 40, height: 40)
+        playBtn = UIButton(type: .system)
+        playBtn.setTitle("播放", for: .normal)
+        playBtn.frame = recordBtn.frame
+        playBtn.frame.origin.y += 32
         playBtn.addTarget(self, action: #selector(playing), for: .touchUpInside)
         playBtn.isHidden = true
         
