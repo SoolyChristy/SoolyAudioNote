@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7063884D1EE6BA1400FC39F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063884C1EE6BA1400FC39F1 /* AppDelegate.swift */; };
-		7063884F1EE6BA1400FC39F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063884E1EE6BA1400FC39F1 /* ViewController.swift */; };
+		7063884F1EE6BA1400FC39F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063884E1EE6BA1400FC39F1 /* HomeViewController.swift */; };
 		706388521EE6BA1400FC39F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706388501EE6BA1400FC39F1 /* Main.storyboard */; };
 		706388541EE6BA1400FC39F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706388531EE6BA1400FC39F1 /* Assets.xcassets */; };
 		706388571EE6BA1400FC39F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706388551EE6BA1400FC39F1 /* LaunchScreen.storyboard */; };
 		706388621EE6BA1400FC39F1 /* SoolyAudioNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706388611EE6BA1400FC39F1 /* SoolyAudioNoteTests.swift */; };
 		7063886D1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063886C1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift */; };
+		7063887B1EE6C03F00FC39F1 /* RecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7063887A1EE6C03F00FC39F1 /* RecordManager.swift */; };
+		70DE5B811EE6D8A1001BC6B8 /* MyRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE5B801EE6D8A1001BC6B8 /* MyRecordViewController.swift */; };
+		70DE5B841EE6DFCB001BC6B8 /* MyRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE5B821EE6DFCB001BC6B8 /* MyRecordCell.swift */; };
+		70DE5B851EE6DFCB001BC6B8 /* MyRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70DE5B831EE6DFCB001BC6B8 /* MyRecordCell.xib */; };
+		70DE5B891EE6E609001BC6B8 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DE5B881EE6E609001BC6B8 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		706388491EE6BA1400FC39F1 /* SoolyAudioNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoolyAudioNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7063884C1EE6BA1400FC39F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7063884E1EE6BA1400FC39F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7063884E1EE6BA1400FC39F1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		706388511EE6BA1400FC39F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		706388531EE6BA1400FC39F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706388561EE6BA1400FC39F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		706388681EE6BA1400FC39F1 /* SoolyAudioNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoolyAudioNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7063886C1EE6BA1400FC39F1 /* SoolyAudioNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoolyAudioNoteUITests.swift; sourceTree = "<group>"; };
 		7063886E1EE6BA1400FC39F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7063887A1EE6C03F00FC39F1 /* RecordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordManager.swift; sourceTree = "<group>"; };
+		70DE5B801EE6D8A1001BC6B8 /* MyRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRecordViewController.swift; sourceTree = "<group>"; };
+		70DE5B821EE6DFCB001BC6B8 /* MyRecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRecordCell.swift; sourceTree = "<group>"; };
+		70DE5B831EE6DFCB001BC6B8 /* MyRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyRecordCell.xib; sourceTree = "<group>"; };
+		70DE5B881EE6E609001BC6B8 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,15 @@
 		7063884B1EE6BA1400FC39F1 /* SoolyAudioNote */ = {
 			isa = PBXGroup;
 			children = (
+				7063887A1EE6C03F00FC39F1 /* RecordManager.swift */,
 				7063884C1EE6BA1400FC39F1 /* AppDelegate.swift */,
-				7063884E1EE6BA1400FC39F1 /* ViewController.swift */,
+				70DE5B871EE6E3A8001BC6B8 /* View */,
+				70DE5B861EE6E3A0001BC6B8 /* Controller */,
 				706388501EE6BA1400FC39F1 /* Main.storyboard */,
 				706388531EE6BA1400FC39F1 /* Assets.xcassets */,
 				706388551EE6BA1400FC39F1 /* LaunchScreen.storyboard */,
 				706388581EE6BA1400FC39F1 /* Info.plist */,
+				70DE5B881EE6E609001BC6B8 /* Header.swift */,
 			);
 			path = SoolyAudioNote;
 			sourceTree = "<group>";
@@ -123,6 +136,24 @@
 				7063886E1EE6BA1400FC39F1 /* Info.plist */,
 			);
 			path = SoolyAudioNoteUITests;
+			sourceTree = "<group>";
+		};
+		70DE5B861EE6E3A0001BC6B8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7063884E1EE6BA1400FC39F1 /* HomeViewController.swift */,
+				70DE5B801EE6D8A1001BC6B8 /* MyRecordViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		70DE5B871EE6E3A8001BC6B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70DE5B821EE6DFCB001BC6B8 /* MyRecordCell.swift */,
+				70DE5B831EE6DFCB001BC6B8 /* MyRecordCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +268,7 @@
 			files = (
 				706388571EE6BA1400FC39F1 /* LaunchScreen.storyboard in Resources */,
 				706388541EE6BA1400FC39F1 /* Assets.xcassets in Resources */,
+				70DE5B851EE6DFCB001BC6B8 /* MyRecordCell.xib in Resources */,
 				706388521EE6BA1400FC39F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7063884F1EE6BA1400FC39F1 /* ViewController.swift in Sources */,
+				7063887B1EE6C03F00FC39F1 /* RecordManager.swift in Sources */,
+				70DE5B841EE6DFCB001BC6B8 /* MyRecordCell.swift in Sources */,
+				7063884F1EE6BA1400FC39F1 /* HomeViewController.swift in Sources */,
 				7063884D1EE6BA1400FC39F1 /* AppDelegate.swift in Sources */,
+				70DE5B891EE6E609001BC6B8 /* Header.swift in Sources */,
+				70DE5B811EE6D8A1001BC6B8 /* MyRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +552,7 @@
 				706388731EE6BA1400FC39F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		706388741EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +561,7 @@
 				706388761EE6BA1400FC39F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		706388771EE6BA1400FC39F1 /* Build configuration list for PBXNativeTarget "SoolyAudioNoteUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +570,7 @@
 				706388791EE6BA1400FC39F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
